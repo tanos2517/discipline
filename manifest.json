@@ -1,0 +1,18 @@
+{
+  "name": "Stay Hard Tactical AI",
+  "short_name": "StayHard",
+  "description": "Тактический ИИ-протокол дисциплины и тренировок",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#040507",
+  "theme_color": "#ff1e1e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='%23040507'/><circle cx='256' cy='256' r='180' fill='none' stroke='%23ff1e1e' stroke-width='30'/><path d='M256 100v312M100 256h312' stroke='%23ff1e1e' stroke-width='25'/><circle cx='256' cy='256' r='60' fill='%23ff1e1e'/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
