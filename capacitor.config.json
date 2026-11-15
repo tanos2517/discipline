@@ -1,6 +1,0 @@
-{
-  "appId": "com.stayhard.tactical",
-  "appName": "Stay Hard",
-  "webDir": "www",
-  "server": { "androidScheme": "https" }
-}
