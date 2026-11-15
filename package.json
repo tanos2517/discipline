@@ -1,0 +1,17 @@
+{
+  "name": "stay-hard-tactical-ai",
+  "version": "4.0.0",
+  "private": true,
+  "description": "STAY HARD // TACTICAL AI PROTOCOL — offline-first PWA / Capacitor app",
+  "scripts": {
+    "setup": "node scripts/setup-libs.js",
+    "build": "node scripts/setup-libs.js",
+    "serve": "npx http-server www -p 8080 -c-1",
+    "android:sync": "npm run setup && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:apk": "npm run android:sync && cd android && ./gradlew assembleDebug"
+  },
+  "devDependencies": {
+    "@mediapipe/pose": "0.5.1675469404"
+  }
+}
